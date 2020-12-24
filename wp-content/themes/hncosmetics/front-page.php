@@ -1,4 +1,4 @@
-
+<?php get_header(); ?> 
 <!-- phần nội dung trang chủ -->
 <main id="main-content">
 
@@ -8,6 +8,11 @@
         <?php echo do_shortcode('[metaslider id="34"]'); ?>
         </div>
     </section>
+    <!-- Phần thứ 2, image PR -->
+    <div class="image-pr">
+        <?php echo do_shortcode('[image-caption-hover id="1"]');?>
+    </div>
+    
 </main>
 <?php
     // include footer

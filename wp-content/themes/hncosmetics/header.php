@@ -3,9 +3,9 @@
 <meta charset="UTF-8"> 
 <meta name="viewport" content="width=device-width, 
 initial-scale=1.0"> 
-<meta http-equiv="X-UA-Compatible" content="ie=edge"> <title><?php bloginfo('title'); ?></title> 
+<meta http-equiv="X-UA-Compatible" content="ie=edge"> <title><?php get_bloginfo('title') ?></title> 
 <?php wp_head(); ?> 
-<link rel="stylesheet" href="<?php get_template_directory_uri() ?>/hncosmetics/wp-content/themes/hncosmetics/style.css"/>
+<link rel="stylesheet" href="/<?php get_template_directory_uri() ?>/hncosmetics/wp-content/themes/hncosmetics/style.css"/>
 </head> 
 <body> 
 <header>
@@ -21,10 +21,13 @@ initial-scale=1.0">
                         $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
         
                         if ( has_custom_logo() ) {
-                            echo `<img src="` . esc_url( `$logo&#91;0&#93;`) . `" alt="` . get_bloginfo( 'name' ) . `">`;
+                            echo `<img src="` . esc_url( `$logo&#91;0&#93;`) . `" alt="logo">`;
                         } else {
                             echo '<h1>'. get_bloginfo( 'name' ) .'</h1>';
                     }?>
+                </div>
+                <div class="col blogname">
+                    H & N Cosmetics
                 </div>
                 <div class="col topbar-search text-right">
                    search
