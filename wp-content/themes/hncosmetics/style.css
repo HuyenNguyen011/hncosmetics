@@ -31,5 +31,7 @@ img.custom-logo {
 
 .blogname {
   font-family: cursive;
-  font-size: x-large;
+  font-size: 30px;
+  color: #ffb3a9;
+  font-weight: bold;
 }

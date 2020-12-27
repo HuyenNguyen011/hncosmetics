@@ -9,10 +9,11 @@
         </div>
     </section>
     <!-- Phần thứ 2, image PR -->
-    <div class="image-pr">
-        <?php echo do_shortcode('[image-caption-hover id="1"]');?>
+    <div class="container">
+        <div class="image-pr">
+            <?php echo do_shortcode('[image-caption-hover id="1"]');?>
+        </div>
     </div>
-    
 </main>
 <?php
     // include footer
