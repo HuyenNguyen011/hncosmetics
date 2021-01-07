@@ -16,7 +16,8 @@
         <div class="product-blog pt-2 pb-5" style="text-align: center;">
             <h2 style="color: #ffb3a9">--------------Sản Phẩm Mới--------------</h2>
         </div>
-        <?php echo do_shortcode('[tcproduct-catalog column=”tcpt-col-3″]');?>
+        <!-- <?php echo do_shortcode('[tcproduct-catalog column=”tcpt-col-3″]');?> -->
+        <?php echo do_shortcode('[products]');?>
     </div>
 </main>
 <?php
