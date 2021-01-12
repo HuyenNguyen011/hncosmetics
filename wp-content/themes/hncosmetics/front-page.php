@@ -19,14 +19,14 @@
                 <h2 style="color: #ffb3a9">--------------Sản Phẩm Mới--------------</h2>
             </div>
             <!-- <?php echo do_shortcode('[tcproduct-catalog column=”tcpt-col-3″]');?> -->
-            <div class="product"><?php echo do_shortcode('[products]');?></div>
+            <div class="product"><?php echo do_shortcode('[products limit="4"]');?></div>
         </div>
         <!-- product best-saller -->
         <div class="best-saller">
             <div class="product-blog pt-2 pb-5" style="text-align: center;">
                 <h2 style="color: #ffb3a9">--------------Sản Phẩm Bán Chạy--------------</h2>
             </div>
-            <div class="best-product"><?php echo do_shortcode('[best_selling_products]');?></div>
+            <div class="best-product"><?php echo do_shortcode('[best_selling_products limit="8"]');?></div>
         </div>
         <!-- list category -->
         <div class="category-blog pt-2 pb-5" style="text-align: center;">
