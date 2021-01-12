@@ -26,12 +26,38 @@ img.custom-logo {
 #topbar {
   background: #f8f9fa;
   height: 50px;
-  margin-top: -15px;
 }
 
 .blogname {
   font-family: cursive;
-  font-size: 30px;
+  font-size: 25px;
   color: #ffb3a9;
   font-weight: bold;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #ffb3a9;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.new-product {
+  background: #FAFAFA;
+}
+
+.product{
+  
+}
+
+.best-saller {
+
+}
+
+.best-product {
+
 }

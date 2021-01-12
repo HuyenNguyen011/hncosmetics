@@ -1,0 +1,2 @@
+2021-01-09T09:57:40+00:00 CRITICAL Cannot redeclare get_category() (previously declared in C:\xampp\htdocs\hncosmetics\wp-includes\category.php:91) in C:\xampp\htdocs\hncosmetics\wp-content\themes\hncosmetics\category.php on line 12
+

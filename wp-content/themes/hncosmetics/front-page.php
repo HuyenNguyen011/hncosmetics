@@ -13,11 +13,26 @@
         <div class="image-pr">
             <?php echo do_shortcode('[image-caption-hover id="1"]');?>
         </div>
-        <div class="product-blog pt-2 pb-5" style="text-align: center;">
-            <h2 style="color: #ffb3a9">--------------Sản Phẩm Mới--------------</h2>
+        <!-- new product -->
+        <div class="new-product">
+            <div class="product-blog pt-2 pb-5" style="text-align: center;">
+                <h2 style="color: #ffb3a9">--------------Sản Phẩm Mới--------------</h2>
+            </div>
+            <!-- <?php echo do_shortcode('[tcproduct-catalog column=”tcpt-col-3″]');?> -->
+            <div class="product"><?php echo do_shortcode('[products]');?></div>
         </div>
-        <!-- <?php echo do_shortcode('[tcproduct-catalog column=”tcpt-col-3″]');?> -->
-        <?php echo do_shortcode('[products]');?>
+        <!-- product best-saller -->
+        <div class="best-saller">
+            <div class="product-blog pt-2 pb-5" style="text-align: center;">
+                <h2 style="color: #ffb3a9">--------------Sản Phẩm Bán Chạy--------------</h2>
+            </div>
+            <div class="best-product"><?php echo do_shortcode('[best_selling_products]');?></div>
+        </div>
+        <!-- list category -->
+        <div class="category-blog pt-2 pb-5" style="text-align: center;">
+            <h2 style="color: #ffb3a9">--------------Danh mục sản phẩm--------------</h2>
+        </div>
+        <?php echo do_shortcode('[wpos_product_categories_slider design="design-2"]');?>
     </div>
 </main>
 <?php

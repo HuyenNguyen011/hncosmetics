@@ -29,11 +29,11 @@ initial-scale=1.0">
                 <div class="col blogname">
                     H & N Cosmetics
                 </div>
-                <div class="col topbar-search text-right">
-                   search
+                <div class="col topbar-search text-right" style="margin-right: -320px; width: 40px; margin-top: 10px;">
+                    <?php echo do_shortcode('[wcas-search-form]'); ?>
                 </div>
                 <div class="col topbar-cart text-right">
-                   cart
+                  
                 </div>
             </div>            
         </div>       
