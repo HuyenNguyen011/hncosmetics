@@ -67,6 +67,7 @@ nav.woocommerce-MyAccount-navigation.phoen_custom_account {
   width: 350px;
   border: 4px double #ffb3a9;
   margin-left: -225px;
+  height: 460px;
 }
 
 .woocommerce-MyAccount-navigation-link a {
@@ -92,6 +93,16 @@ nav.woocommerce-MyAccount-navigation.phoen_custom_account {
 
 .woocommerce-MyAccount-content {
   position: relative;
-  bottom: 540px;
+  bottom: 500px;
   right: -232px;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 9px 9px;
+  outline: 0;
+  line-height: normal;
+  border-radius: 6px;
 }
