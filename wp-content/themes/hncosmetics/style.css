@@ -36,28 +36,62 @@ img.custom-logo {
 }
 
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ color: #ffb3a9;  }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #ffb3a9;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
 }
 
 .dropdown-toggle::after {
-  display:none;
+  display: none;
 }
 
-.new-product {
-  background: #FAFAFA;
+nav.woocommerce-MyAccount-navigation.phoen_custom_account {
+  margin: 40px 8px;
+  width: 350px;
 }
 
-.product{
-  
+.woocommerce-MyAccount-navigation {
+  margin: 20px 10px;
+}
+.woocommerce-MyAccount-navigation .phoen_nav_tab {
+  list-style: none;
+  width: 350px;
+  border: 4px double #ffb3a9;
+  margin-left: -225px;
 }
 
-.best-saller {
-
+.woocommerce-MyAccount-navigation-link a {
+  color: #000;
+  font-weight: bold;
 }
 
-.best-product {
+.woocommerce-MyAccount-navigation-link {
+  color: #000;
+  margin: 20px -40px;
+  border-bottom: 2px solid #ffb3a9;
+  padding: 15px;
+  width: 340px;
+}
 
+.woocommerce-account .woocommerce-MyAccount-content {
+  width: 100%;
+}
+
+nav.woocommerce-MyAccount-navigation.phoen_custom_account {
+  margin: 40px 8px;
+}
+
+.woocommerce-MyAccount-content {
+  position: relative;
+  bottom: 540px;
+  right: -232px;
 }
