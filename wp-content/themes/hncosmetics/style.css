@@ -16,6 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .logo {
   width: 50px;
   height: 50px;
+  padding-top: 10px;
 }
 
 img.custom-logo {
@@ -25,7 +26,8 @@ img.custom-logo {
 
 #topbar {
   background: #f8f9fa;
-  height: 50px;
+  height: 55px;
+  margin-top: -15px;
 }
 
 .blogname {
@@ -33,6 +35,11 @@ img.custom-logo {
   font-size: 25px;
   color: #ffb3a9;
   font-weight: bold;
+  padding-top: 10px;
+}
+
+.topbar-search {
+  margin-top: -35px;
 }
 
 @media all and (min-width: 992px) {
@@ -96,8 +103,11 @@ nav.woocommerce-MyAccount-navigation.phoen_custom_account {
   bottom: 500px;
   right: -232px;
 }
+
 .woocommerce {
-  margin-top: 50px; }
+  margin-top: 50px;
+}
+
 .woocommerce form .form-row input.input-text,
 .woocommerce form .form-row textarea {
   box-sizing: border-box;
