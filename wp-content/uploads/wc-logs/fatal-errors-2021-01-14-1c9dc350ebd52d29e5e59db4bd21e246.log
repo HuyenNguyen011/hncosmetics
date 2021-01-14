@@ -1,0 +1,18 @@
+2021-01-14T06:30:23+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\managers\controls.php:861
+Stack trace:
+#0 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(485): Elementor\Controls_Manager->get_element_stack(Object(Elementor\WL_Product_Title_Element))
+#1 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#2 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(294): Elementor\Widget_Base->get_stack()
+#3 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(2040): Elementor\Controls_Stack->get_controls()
+#4 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(1012): Elementor\Controls_Stack->sanitize_settings(Array)
+#5 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(1789): Elemen in C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\managers\controls.php on line 861
+
+2021-01-14T06:32:34+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\managers\controls.php:861
+Stack trace:
+#0 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(485): Elementor\Controls_Manager->get_element_stack(Object(Elementor\WL_Product_Title_Element))
+#1 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#2 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(294): Elementor\Widget_Base->get_stack()
+#3 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(2040): Elementor\Controls_Stack->get_controls()
+#4 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(1012): Elementor\Controls_Stack->sanitize_settings(Array)
+#5 C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\base\controls-stack.php(1789): Elemen in C:\wamp64\www\hncosmetics\wp-content\plugins\elementor\includes\managers\controls.php on line 861
+
