@@ -96,7 +96,8 @@ nav.woocommerce-MyAccount-navigation.phoen_custom_account {
   bottom: 500px;
   right: -232px;
 }
-
+.woocommerce {
+  margin-top: 50px; }
 .woocommerce form .form-row input.input-text,
 .woocommerce form .form-row textarea {
   box-sizing: border-box;
