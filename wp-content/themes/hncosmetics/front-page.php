@@ -28,11 +28,6 @@
             </div>
             <div class="best-product"><?php echo do_shortcode('[best_selling_products limit="8"]');?></div>
         </div>
-        <!-- list category -->
-        <div class="category-blog pt-2 pb-5" style="text-align: center;">
-            <h2 style="color: #ffb3a9">--------------Danh mục sản phẩm--------------</h2>
-        </div>
-        <?php echo do_shortcode('[wpos_product_categories_slider design="design-2"]');?>
     </div>
 </main>
 <?php
